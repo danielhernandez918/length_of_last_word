@@ -2,9 +2,9 @@
  * @param {string} s
  * @return {number}
  */
-s1 = "Hello World"
-s2 = "   fly me   to   the moon  "
-s3 = "luffy is still joyboy"
+const s1 = "Hello World"
+const s2 = "   fly me   to   the moon  "
+const s3 = "luffy is still joyboy"
 var lengthOfLastWord = function(s) {
     const arr = s.split(" ");
     const newArr= [];
