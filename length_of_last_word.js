@@ -13,8 +13,8 @@ var lengthOfLastWord = function(s) {
             newArr.push(arr[i]);
         }
     }
-    const wordLength = newArr[newArr.length-1].length;
-    return wordLength;
+    const number = newArr[newArr.length-1].length;
+    return number;
     // return newArr;
 };
 console.log(lengthOfLastWord(s1));
